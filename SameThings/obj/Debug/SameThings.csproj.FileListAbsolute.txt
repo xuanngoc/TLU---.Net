@@ -1,0 +1,11 @@
+D:\c#\1-1\SameThings\SameThings\bin\Debug\SameThings.exe.config
+D:\c#\1-1\SameThings\SameThings\bin\Debug\SameThings.exe
+D:\c#\1-1\SameThings\SameThings\bin\Debug\SameThings.pdb
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.csprojResolveAssemblyReference.cache
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.Properties.Resources.resources
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.SameThings.resources
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.csproj.GenerateResource.Cache
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.exe
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.pdb
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.LoginForm.resources
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.GameOver.resources
