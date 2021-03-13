@@ -50,7 +50,7 @@ namespace SameThings
           while (reader.Read())
           {
 
-            id = reader.GetString(0);
+            id = reader.GetValue(0).ToString();
 
             string name = reader.GetString(1);
             string pw = reader.GetString(2);
@@ -92,6 +92,13 @@ namespace SameThings
       {
         MessageBox.Show("The username or password is incorrect!");
       }
+    }
+
+    private void button2_Click(object sender, EventArgs e)
+    {
+      RegisterForm frm = new RegisterForm();
+      frm.Show();
+      this.Hide();
     }
   }
 

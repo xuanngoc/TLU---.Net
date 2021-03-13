@@ -9,3 +9,4 @@ D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.exe
 D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.pdb
 D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.LoginForm.resources
 D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.GameOver.resources
+D:\c#\1-1\SameThings\SameThings\obj\Debug\SameThings.RegisterForm.resources

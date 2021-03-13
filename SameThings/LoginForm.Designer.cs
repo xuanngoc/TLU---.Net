@@ -36,6 +36,7 @@
       this.inputPassword = new System.Windows.Forms.TextBox();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.button1 = new System.Windows.Forms.Button();
+      this.button2 = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -99,13 +100,24 @@
       this.button1.BackColor = System.Drawing.Color.BlueViolet;
       this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.button1.ForeColor = System.Drawing.SystemColors.Control;
-      this.button1.Location = new System.Drawing.Point(351, 542);
+      this.button1.Location = new System.Drawing.Point(261, 535);
       this.button1.Name = "button1";
-      this.button1.Size = new System.Drawing.Size(105, 38);
+      this.button1.Size = new System.Drawing.Size(126, 38);
       this.button1.TabIndex = 6;
-      this.button1.Text = "Log in";
+      this.button1.Text = "Sign in";
       this.button1.UseVisualStyleBackColor = false;
       this.button1.Click += new System.EventHandler(this.button1_Click);
+      // 
+      // button2
+      // 
+      this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.button2.Location = new System.Drawing.Point(443, 537);
+      this.button2.Name = "button2";
+      this.button2.Size = new System.Drawing.Size(119, 33);
+      this.button2.TabIndex = 7;
+      this.button2.Text = "Sign up";
+      this.button2.UseVisualStyleBackColor = true;
+      this.button2.Click += new System.EventHandler(this.button2_Click);
       // 
       // LoginForm
       // 
@@ -113,6 +125,7 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
       this.ClientSize = new System.Drawing.Size(784, 761);
+      this.Controls.Add(this.button2);
       this.Controls.Add(this.button1);
       this.Controls.Add(this.pictureBox1);
       this.Controls.Add(this.inputPassword);
@@ -138,5 +151,6 @@
         private System.Windows.Forms.TextBox inputPassword;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
