@@ -37,11 +37,12 @@
       // 
       this.textPoint.AutoSize = true;
       this.textPoint.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textPoint.Location = new System.Drawing.Point(370, 10);
+      this.textPoint.Location = new System.Drawing.Point(369, 12);
       this.textPoint.Name = "textPoint";
       this.textPoint.Size = new System.Drawing.Size(23, 24);
       this.textPoint.TabIndex = 0;
       this.textPoint.Text = "0";
+      this.textPoint.TextAlign = System.Drawing.ContentAlignment.TopCenter;
       // 
       // textUsername
       // 
@@ -56,7 +57,7 @@
       // 
       this.textCountDown.AutoSize = true;
       this.textCountDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.textCountDown.Location = new System.Drawing.Point(370, 34);
+      this.textCountDown.Location = new System.Drawing.Point(701, 15);
       this.textCountDown.Name = "textCountDown";
       this.textCountDown.Size = new System.Drawing.Size(18, 20);
       this.textCountDown.TabIndex = 2;

@@ -194,7 +194,8 @@ namespace SameThings
 
 
       SqlCommand cmd = conn.CreateCommand();
-      cmd.CommandText = "INSERT INTO SCORES(USER_ID, SCORE) VALUE(" + user_id + ", " + point + ")";
+      cmd.CommandText = "INSERT INTO SCORES(USER_ID, SCORE) VALUES(" + user_id + ", " + point + ")";
+      cmd.ExecuteNonQuery();
       conn.Close();
     }
 
