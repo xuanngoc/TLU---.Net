@@ -31,10 +31,14 @@ namespace SameThings
 
     private Random rand = new Random();
     private string user_id;
+    private string username;
+
     public SameThings(string user_id, string username)
     {
       InitializeComponent();
       this.user_id = user_id;
+      this.username = username;
+
       textUsername.Text = username;
       createSymbols();
       for (int i = 0; i < SIZE_OF_BOARD; i++)
@@ -174,7 +178,7 @@ namespace SameThings
     private void stopGame()
     {
       saveScore(user_id, point);
-      GameOver frm = new GameOver(point, counter);
+      GameOver frm = new GameOver(point, counter, user_id, username);
       frm.Show();
       this.Hide();
     }

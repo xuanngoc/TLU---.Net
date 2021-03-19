@@ -14,9 +14,16 @@ namespace SameThings
 {
   public partial class GameOver : Form
   {
-    public GameOver(int point, int time)
+    private string user_id;
+    private string username;
+
+    public GameOver(int point, int time, string user_id, string username)
     {
       InitializeComponent();
+
+      this.user_id = user_id;
+      this.username = username;
+
       textPoint.Text = point.ToString();
       //textTime.Text = time.ToString();
       initialListViewScore();
@@ -81,6 +88,13 @@ namespace SameThings
       }
       conn.Close();
       return null;
+    }
+
+    private void btnPlayAgain_Click(object sender, EventArgs e)
+    {
+      SameThings frm = new SameThings(user_id, username);
+      frm.Show();
+      this.Hide();
     }
   }
 }

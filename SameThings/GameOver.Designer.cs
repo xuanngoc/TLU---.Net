@@ -31,6 +31,7 @@
       this.textPoint = new System.Windows.Forms.Label();
       this.listHighScore = new System.Windows.Forms.ListView();
       this.label3 = new System.Windows.Forms.Label();
+      this.btnPlayAgain = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // textPoint
@@ -63,12 +64,26 @@
       this.label3.TabIndex = 3;
       this.label3.Text = "High Score";
       // 
+      // btnPlayAgain
+      // 
+      this.btnPlayAgain.BackColor = System.Drawing.Color.White;
+      this.btnPlayAgain.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.btnPlayAgain.ForeColor = System.Drawing.Color.Blue;
+      this.btnPlayAgain.Location = new System.Drawing.Point(285, 645);
+      this.btnPlayAgain.Name = "btnPlayAgain";
+      this.btnPlayAgain.Size = new System.Drawing.Size(198, 61);
+      this.btnPlayAgain.TabIndex = 4;
+      this.btnPlayAgain.Text = "Play again";
+      this.btnPlayAgain.UseVisualStyleBackColor = false;
+      this.btnPlayAgain.Click += new System.EventHandler(this.btnPlayAgain_Click);
+      // 
       // GameOver
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
       this.ClientSize = new System.Drawing.Size(784, 761);
+      this.Controls.Add(this.btnPlayAgain);
       this.Controls.Add(this.label3);
       this.Controls.Add(this.listHighScore);
       this.Controls.Add(this.textPoint);
@@ -86,5 +101,6 @@
     private System.Windows.Forms.Label textPoint;
     private System.Windows.Forms.ListView listHighScore;
     private System.Windows.Forms.Label label3;
+    private System.Windows.Forms.Button btnPlayAgain;
   }
 }
